@@ -66,40 +66,42 @@
                 <li class="menu__item">
                     <a href="#contact" class="menu__link">Agendar</a>
                 </li>
-
+                
             </ul>
-
+            
             <div class="menu__hamburguer">
                 <img src="http://localhost/reservas/svg/menu.svg" class="menu__img">
             </div>
         </section>
     </nav>
-
-
-
-    
-    
-    
-    
-    
     
     <section id="cardio">
         <div class="reso">
             <div class="img"></div>
             <div class="text">
-                 <h2>FISIOTERAPIA</h2>
-            <p>En Clínica Veterinaria Groomers estamos comprometidos a  mejorar la calidad de vida. Así, podremos disfrutar más tiempo juntos con las mascotas que presentan enfermedades del corazón.</p>
+                 <h2>CARDIOLOGÍA</h2>
+            <p>En Clínica Veterinaria Groomers estamos comprometidos a  mejorar la calidad de vida. Así, podremos disfrutar más tiempo juntos con las mascotas que presentan enfermedades del corazón. <br> <br> 
+            Nuestros Médicos se abocan en la evaluación y el tratamiento de perros y gatos con síntomas de enfermedad cardíaca o pulmonar, los síntomas pueden ser: <br> <br>
+            - Dificultad para respirar o falta de aliento
+            <br> <br>
+            - La intolerancia al ejercicio
+            <br> <br>
+            - Hinchazón abdominal
+            <br> <br>
+            - Tos </p>
             </div>
         </div>
     </section>
     
     
     
+    
+    
     <section class= "cardio1">
-
-    </section>
-    
-    
+        
+        </section>
+        
+        
     
     <footer class="footer">
         <div class="">

@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="http://localhost/Login/css/index.css">
+        <link rel="stylesheet" href="http://localhost/reservas/css/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <title>Document</title>
@@ -15,7 +15,7 @@
         <span>NO SE PUDO REGISTRAR</span>
     </div>
     <div class="main">
-        <form action="http://localhost/Login/main/insertar.php" method= "POST" id="form">
+        <form action="http://localhost/reservas/main/insertar.php" method= "POST" id="form">
             <div class="form">
                 <h1>Registrarse</h1>
                 <div class="group">
@@ -36,7 +36,7 @@
                 </div>
                 <input type="submit" class= "btnrg btnlg" value = "Enviar">
                 <p class = reg >Ya tienes una cuenta?</p>
-                <a class= "link" href="http://localhost/Login/inicio/index.php">Ingresa Aquí</a>
+                <a class= "link" href="http://localhost/reservas/inicio/index.php">Ingresa Aquí</a>
             </div>
             <p class = doble ></p>
         </form>

@@ -1,3 +1,14 @@
+<?php
+session_start();
+error_reporting(0);
+$varsesion = $_SESSION['usuario'];
+
+if($varsesion == null || $varsesion = ''){
+    header ('location: http://localhost/reservas/inicio/index.php');
+    die();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,14 +26,12 @@
             <h1>BIENVENIDO A LA CLÍNICA VETERINARIA <br> PATITAS FELICES</h1>
         </div>
     </header>
-    
-    
     <nav class="menu">
         <section class="menu__container">
             <h1 class="menu__logo">PATITAS FELICES</h1>
             <ul class="menu__links">
                 <li class="menu__item">
-                    <a href="#" class="menu__link">Inicio</a>
+                    <a href="http://localhost/reservas/principal/home.php" class="menu__link active">Inicio</a>
                 </li>
                 <li class="menu__item menu__item--show">
                     <a href="#espe" class="menu__link">Especialidad<img src="http://localhost/reservas/svg/arrow.svg" class="menu__arrow"></a>
@@ -50,7 +59,7 @@
                 </li>
 
                 <li class="menu__item menu__item--show">
-                    <a href="#about" class="menu__link">Servicios<img src="http://localhost/reservas/svg/arrow.svg" class="menu__arrow"></a>
+                    <a href="#servi" class="menu__link">Servicios<img src="http://localhost/reservas/svg/arrow.svg" class="menu__arrow"></a>
                     <ul class="menu__nesting">
                         <li class="menu__inside">
                             <a href="#galery" class="menu__link menu__link--inside">Laboratorio</a>
@@ -69,8 +78,13 @@
                 </li>
     
                 <li class="menu__item">
-                    <a href="#contact" class="menu__link">Agendar</a>
+                    <a href="http://localhost/reservas/inicio/agendar.php" class="menu__link">Agendar</a>
                 </li>
+
+                <li class="menu__item ">
+                    <a class= "btnlg menu__link" href="http://localhost/reservas/main/close.php">Salir</a>
+                </li>
+
 
             </ul>
 
@@ -78,6 +92,8 @@
                 <img src="http://localhost/reservas/svg/menu.svg" class="menu__img">
             </div>
         </section>
+
+
     </nav>
 
 
@@ -197,7 +213,7 @@
                    <li><a" href="#">TÉRMINOS Y CONDICIONES DE LA WEB</a></li>
                  </ul>
                </div>
-               <div class="footer-col">
+               <div class="footer-col follow">
                  <h4 style="color: #008080">FOLLOW US</h4>
                  <div class="social-links">
                  <a href="#about" class="menu__icons"><img src="http://localhost/reservas/svg/facebook.svg" class="menu__arrow"></a>

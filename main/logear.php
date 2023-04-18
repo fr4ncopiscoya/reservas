@@ -11,12 +11,12 @@ $_SESSION['usuario'] = $usuario;
     $filas = mysqli_num_rows($resultado);
 
     if($filas>0){
-        echo '<script> alert("Verificado");
-        location.href="http://localhost/Login/usuario/usuario.php";
+        echo '<script> alert("BIENVENID@ '.$usuario.'");
+        location.href="http://localhost/reservas/principal/home.php";
         </script>';
     }else{
         echo '<script> alert("DATOS INCORRECTOS");
-        location.href="http://localhost/Login/inicio/index.php";
+        location.href="http://localhost/reservas/inicio/index.php";
         </script>';
         // header("location: http://localhost/Login/inicio/index.php");
     }

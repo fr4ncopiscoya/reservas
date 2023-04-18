@@ -18,7 +18,7 @@ session_start();
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="http://localhost/Login/css/index.css">
+        <link rel="stylesheet" href="http://localhost/reservas/css/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css"> -->
@@ -44,7 +44,7 @@ session_start();
                 <span>LOS DATOS SON INCORRECTOS, INTÉNTE OTRA VEZ </span>
                 </div>
                 <div class="main">
-                    <form action="http://localhost/Login/main/logear.php" method= "POST" id="form">
+                    <form action="http://localhost/reservas/main/logear.php" method= "POST" id="form">
                         <div class="form">
                             <h1>Iniciar Sesión</h1>
                             <!-- <div class="group">
@@ -61,7 +61,7 @@ session_start();
                 </div>
                 <input type="submit" class= "btnlg" value = "Enviar">
                 <p class = reg >No tienes una cuenta?</p>
-                <a class= "link" href="http://localhost/Login/inicio/registro.php">Registrate Aquí</a>
+                <a class= "link" href="http://localhost/reservas/inicio/registro.php">Registrate Aquí</a>
             </div>
         </form>
         <!-- <input type="password" name= "passlg" placeholder = "Contraseña" required >
