@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+#cardio .reso{
+    justify-content: center;
+    align-items: center;
+    margin: 20rem;
+    display: flex;
+}
+
+#cardio .img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("http://localhost/reservas/img/cardio.jpg");
+    /* position: absolute; */
+    color: #e1e1e1c6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 80px;
+    height: 500px;
+    width: 400%;
+}
+
+#cardio .text{
+    padding: 50px;
+}
+
+
+
+
+
